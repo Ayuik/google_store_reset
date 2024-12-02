@@ -1,0 +1,52 @@
+.bottom-line {
+    margin-top: 25px;
+    width: 340px;
+    margin-right: 100%;
+  }
+  hr {
+    background-color: rgb(136, 136, 136);
+    border-color: rgb(136, 136, 136);
+  }
+  .cantidad,.comprar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.selector_de_cantidad {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 75px;
+    width: 70px;
+    font-size: x-large;
+}
+span{
+    margin-right: 10px;
+    float: left;
+}
+.espacio {
+    font-weight: bold;
+}
+main {
+    background-color: lightgray;
+    display: inline-block;
+}
+.button {
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    height: 75px;
+    width: 260px;
+  }
