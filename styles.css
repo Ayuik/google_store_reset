@@ -52,3 +52,49 @@ margin-right: 0%;
 }
 
 
+
+
+
+/* codigo de ayelen */
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F9FA;
+    font-size: x-small;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin: 0;
+}
+
+#redes {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.iconoRedes {
+    padding-inline: 2%;
+}
+
+#banderaYpolicies {
+    width: 45%;
+    
+}
+
+#bandera {
+    float: left;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+
+a {  
+    padding-inline: 2%;
+    text-decoration: none;
+    color: black;
+}
+
+
