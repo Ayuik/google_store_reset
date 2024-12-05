@@ -51,6 +51,55 @@ margin-right: 0%;
     margin-top: 0; 
 }
 
+/* codigo aside_top*/
+.line  {
+    margin-top: 25px;
+  }
+  
+  #circle_1 {
+     background: rgb(165, 200, 230);
+     border-radius: 50%;
+     border: rgb(124, 119, 119) solid 0.5px;
+     width: 35px;
+     height: 35px;
+  }
+  #circle_2 {
+    background: rgb(196, 199, 185);
+    border-radius: 50%;
+    border: rgb(124, 119, 119) solid 0.5px;
+    width: 35px;
+    height: 35px;
+  }
+  #circle_3 {
+    background: rgb(35, 41, 43);
+    border-radius: 50%;
+    border: rgb(124, 119, 119) solid 0.5px;
+    width: 35px;
+    height: 35px;
+  }
+  #circle_4 {
+    background: rgb(199, 207, 210);
+    border-radius: 50%;
+    border:  rgb(124, 119, 119) solid 0.5px;
+    width: 35px;
+    height: 35px;
+  }
+  #circle_5 {
+    background: rgb(190, 217, 163);
+    border-radius: 50%;
+    border:  rgb(124, 119, 119) solid 0.5px;
+    width: 35px;
+    height: 35px;
+  }
+  #circle_6 {
+    background: rgb(224, 109, 86);
+    border-radius: 50%;
+    border:  rgb(124, 119, 119) solid 0.5px;
+    width: 35px;
+    height: 35px;
+  }
+
+  
 /* codigo de grigory*/
 .bottom-line {
     margin-top: 25px;
