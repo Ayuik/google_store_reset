@@ -1,30 +1,56 @@
 /* header */
 
-.container {width: 100%;
+@font-face {
+    font-family: 'inter';
+    src: url('fonts/Inter_18pt-Regular.ttf') format('truetype');
+    font-style: unset;
+}
+body {
+    font-family: 'inter';
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    /*display: inline-block;
+    margin: 0 10px;
+    padding-inline: 20px;
+    padding-block: 2px;
+    display: flex;
+    justify-content: space-around;*/
+    width: 100%;
     height: 15%;
     display: flex;
-    justify-content: space-around;}
-img {height: 15px;
-    padding-inline: 2%;}
-.logo {justify-content: flex-start;}
-.navbar {font-family: Arial, Helvetica, sans-serif;
-/*
+    justify-content: space-around;
+    font-family: 'inter';
+}
+img {
+    height: 15px;
+    padding-inline: 2%;
+}
+.logo {
+    justify-content: flex-start;
+}
+.navbar {
+    /*
 margin-right: 100px;
 display: inline-block;*/
-padding-left: 0%;
+
+    font-size: 12px;
+    padding-left: 0%;
 }
-hr {box-shadow: 3px}
-.icons {display:flex;
-justify-content: flex-end;
-margin-right: 0%;
+
+hr {
+    box-shadow: 3px
 }
-/* style de mourad*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+.icons {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 0%;
 }
+/* style de mourad*/ 
 .main1 {
     background-color: #f9f9f9;
     color: #333;
@@ -40,6 +66,9 @@ margin-right: 0%;
 .container1 {
     width: 90%;
     height: 55%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -173,13 +202,8 @@ margin-right: 0%;
     width: 70px;
     font-size: x-large;
 }
-span{
-    margin-right: 10px;
-    float: left;
-}
-.espacio {
-    font-weight: bold;
-}
+
+
 main {
     background-color: lightgray;
     display: inline-block;
@@ -201,7 +225,6 @@ main {
 
 /* codigo de ayelen */
 footer {
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #F8F9FA;
     font-size: x-small;
     display: flex;
@@ -225,8 +248,7 @@ footer {
 }
 
 #banderaYpolicies {
-    width: 45%;
-    
+    width: 45%; 
 }
 
 #bandera {
