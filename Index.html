@@ -91,9 +91,19 @@
             <div class="delivery-info">
                 <img src="./src_img/Delivery.svg" alt="Truck Icon" />
                 <span>Delivers 29 Apr to</span>
-                <form class="codigo_postal">
-                    <input type="text" placeholder="08023" aria-label="Postal Code">
-                </form>
+                <button id="show_form">
+                    08023
+                </button>
+                
+                    <dialog id="form_cp">
+                        <form><leyend>Introduce tu código postal</leyend>
+                        <button onClick="this.parentElement.close()">X</button><br>
+                        <label for="codigo_postal"></label>
+                        <input type="text" placeholder="Código postal" id="codigo_postal"/> <button id="actualizar">Actualizar</button>
+                
+                        <p>Tu información se usa de acuerdo con la <a href="https://policies.google.com/privacy?hl=es">Política de privacidad de Google</a></p>
+                        </form>
+                    </dialog>
             </div>
         </div>
     </section>
@@ -114,5 +124,6 @@
             <a href="https://policies.google.com/terms?hl=es&gl=es" target="_blank">Terms of Service</a></p>
         </div>
     </footer>
+    <script src="form_cp.js"></script>
 </body>
 </html>
