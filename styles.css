@@ -172,6 +172,9 @@ hr {
     height: 35px;
   }
 
+  .buttons_color:focus {
+    outline: 2px  rgb(65, 63, 63) solid;
+  }
   
 /* codigo de grigory*/
 

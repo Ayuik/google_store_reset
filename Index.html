@@ -22,7 +22,7 @@
             <nav> 
                 <div class="navbar"> Earbuds Watches Smart Home Accesories Subscriptions</div>
             </nav>
-            <div class="icons"><img src="./src_img/Search.svg"> <img src="./src_img/Help.svg"> <img src="./src_img/Cart.svg"> <img src="./src_img/Delivery.svg"> <img src="./src_img/Avatar.svg"></div> 
+            <div class="icons"><img src="./src_img/Search.svg"> <img src="./src_img/Help.svg"> <img src="./src_img/Cart.svg"><span id="cuenta_carrito"></span> <img src="./src_img/Delivery.svg"> <img src="./src_img/Avatar.svg"></div> 
         </div>
     </header>
     <hr>
@@ -56,12 +56,12 @@
             <hr id=" line">
             <div class="colors">
                 <p class="select_color_buds">Choose a color:</p>
-                    <button id="circle_1"></button>
-                    <button id="circle_2"></button>
-                    <button id="circle_3"></button>
-                    <button id="circle_4"></button>
-                    <button id="circle_5"></button>
-                    <button id="circle_6"></button>
+                    <button class="buttons_color" id="circle_1"></button>
+                    <button class="buttons_color" id="circle_2"></button>
+                    <button class="buttons_color" id="circle_3"></button>
+                    <button class="buttons_color" id="circle_4"></button>
+                    <button class="buttons_color" id="circle_5"></button>
+                    <button class="buttons_color" id="circle_6"></button>
             </div>    
         </div>
     <!-- codigo de grigory-->
@@ -85,7 +85,7 @@
                     <span class="espacio"></span>
                 </div> -->
                 <div>
-                    <button class="button">Add to Cart</button>
+                    <button class="button" id="carrito" disabled>Add to Cart</button>
                 </div>
             </div>
             <div class="delivery-info">
@@ -125,5 +125,6 @@
         </div>
     </footer>
     <script src="form_cp.js"></script>
+    <script src="carrito.js"></script>
 </body>
 </html>
