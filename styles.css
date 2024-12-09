@@ -174,10 +174,9 @@ hr {
 
   
 /* codigo de grigory*/
+
 .bottom-line {
     margin-top: 25px;
-    width: 340px;
-    margin-right: 100%;
   }
   hr {
     background-color: rgb(136, 136, 136);
@@ -191,16 +190,17 @@ hr {
 }
 .box {
     display: flex;
-    flex-direction: row;
+    align-items: center; 
+    gap: 10px; 
 }
 
 .selector_de_cantidad {
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px;
-    height: 75px;
+    height: 50px;
     width: 70px;
-    font-size: x-large;
+    font-size: medium;
 }
 
 
@@ -212,15 +212,14 @@ main {
     background-color: skyblue;
     border: 2px solid black;
     border-radius: 5px;
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 36px;
-    height: 75px;
-    width: 260px;
-  }
+    font-size: medium;
+    height: 50px; 
+    width: auto; 
+    cursor: pointer;
+}
 
 
 /* codigo de ayelen */
@@ -262,5 +261,79 @@ a {
     text-decoration: none;
     color: black;
 }
+/* codigo de grigory part2*/
+.aside {
+    display: flex;
+    flex-direction: column; 
+    position: absolute; 
+    top: 50%; 
+    right: 5%; 
+    transform: translateY(-50%); 
+    width: 25%; 
+    background-color: white; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    border-radius: 10px; 
+}
 
+aside_top, aside_bottom {
+    margin-bottom: 20px; 
+}
 
+.box {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.selector_de_cantidad {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: 50px;
+    width: 70px;
+    font-size: medium;
+}
+
+.button {
+    background-color: skyblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: medium;
+    height: 50px; 
+    width: auto; 
+    cursor: pointer;
+}
+.delivery-info {
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    flex-wrap: nowrap; 
+    font-size: medium; 
+}
+
+.delivery-info img {
+    height: 24px; 
+    width: auto;
+}
+
+.codigo_postal {
+    display: inline-flex; 
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0; 
+}
+
+.codigo_postal input {
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    padding: 4px 8px; 
+    font-size: medium; 
+    width: 80px; 
+    text-align: center; 
+    margin: 0; 
+}
